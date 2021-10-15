@@ -20,9 +20,10 @@ def main():
     # Top250sheet = Top250Tab.active
     # Top250Data = tuple(Top250sheet)
 
-    for i in  range (0,10):
-        askURL("https://movie.douban.com/top250?start=" + str(i*25))
-        
+# for i in  range (0,10):
+    # askURL("https://movie.douban.com/top250?start=" + str(i*25))
+    askURL("http://www.baidu.com/")
+
 
 # 爬取网页
 def getData(baseurl):
