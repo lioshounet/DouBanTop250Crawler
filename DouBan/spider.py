@@ -19,17 +19,66 @@ def main():
     # Top250Tab = load_workbook(savepath)
     # Top250sheet = Top250Tab.active
     # Top250Data = tuple(Top250sheet)
+    # MuTabPathTxt = open("MuTabPath.txt", "w", encoding="utf-8")
+    # MuTabPathTxt.write(Dir_choose)
 
-# for i in  range (0,10):
-    # askURL("https://movie.douban.com/top250?start=" + str(i*25))
-    askURL("http://www.baidu.com/")
+    datalist = getData(baseurl)
 
-
-# 爬取网页
+# 控制爬取/筛选数据
 def getData(baseurl):
     datalist = []
+    for i in range(0, 1):
+    # for i in range(0, 10):
+        html = askURL(baseurl + str(i * 25))
+        # datalist.append(html)
+        soup = BeautifulSoup(html,"html.parser")
+        # 剥离电影div
+        for movie_info in soup.find_all('div',class_="item"):
+            # print(movie_info)
+
+            # a连接的正则搜索
+            findLink = re.compile(r'<a href="(.*?)">')
+            findImg = re.compile(r'<img.*src="(.*?)" ',re.S)
+            findTilte = re.compile(r'<span.*class="title">(.*)</span>')
+            findPoint = re.compile(r'<span.*class="rating_num" property="v:average">(.*)</span>')
+            findPointer = re.compile(r'<span>(.*)</span>')
+            findBd = re.compile(r'<p class="">(.*?)</p>',re.S)
+
+            movie_info = str(movie_info)
+            # 这个[0]指的是每个信息div出一个
+            link = re.findall(findLink,movie_info)[0]
+            findImg = re.findall(findImg, movie_info)[0]
+            findPoint = re.findall(findPoint, movie_info)[0]
+            findPointer = re.findall(findPointer, movie_info)[0]
+            findBd = re.findall(findBd, movie_info)[0]
+            findBd = re.sub('<br(\s+)?/>(\s+)?'," ",findBd)
+
+            datalist.append(link)
+            datalist.append(findImg)
+            datalist.append(findPoint)
+            datalist.append(findPointer)
+            datalist.append(findBd.strip())
+            #.strip()去掉空格
+            findTilte = re.findall(findTilte, movie_info)
+            if(len(findTilte) == 2):
+                CnTitle = findTilte[0]
+                datalist.append(CnTitle)
+                OuTitle = findTilte[1]
+                datalist.append(OuTitle)
+            else:
+                datalist.append(findTilte[0])
+                datalist.append("")
+
+            for o in  datalist:
+                print(o)
+                print("\n")
+
+            # print(datalist[1])
+            break
+
     return datalist
 
+# 爬取独立函数
 def askURL(url):
     #用户代理
     head = {
@@ -41,7 +90,7 @@ def askURL(url):
     try:
         response = urllib.request.urlopen(request)
         html = response.read().decode('utf-8')
-        print(html)
+        # print(html)
     except urllib.error.URLError as e:
         if hasattr(e,"code"):
             print(e.code)
