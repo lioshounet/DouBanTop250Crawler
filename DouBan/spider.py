@@ -8,15 +8,18 @@ import urllib.request
 import urllib.parse
 # 自定义url
 
-import sqlite3 #进行sqlite数据库操作
+# import sqlite3
+#进行sqlite数据库操作
 import numpy #二维数组操作
 
 import openpyxl
 from openpyxl import load_workbook
 
+import pymysql.cursors
+
 def main():
     # print("hello")
-    baseurl = "https://movie.douban.com/top250?start=0&filter="
+    baseurl = "https://movie.douban.com/top250?start="
     savepath = r"D:\ZPan\QianDuan\自助学习\2021大三上自学\爬虫-任务驱动\豆瓣\保存的表格\class01.xlsx"
 
     # MuTabPathTxt = open("MuTabPath.txt", "w", encoding="utf-8")
@@ -119,6 +122,40 @@ def saveData(savepath,arr2):
         Top250Data[y][6].value = arr2[y * 7 + 6]
 
     Top250Tab.save(savepath + "豆瓣Top250.xlsx")
+    saveinDB(arr2)
+
+
+def saveinDB(arr2):
+    arr3 = []
+    connection = pymysql.connect(host="192.168.75.143",
+                                 port=3306,
+                                 user="root",
+                                 password="ly86036609",
+                                 db='DouBanTop250',
+                                 charset="utf8",
+                                 )
+
+    for arr in arr2:
+        arr3.append(arr.replace("'", " "))
+
+    # try:
+    cursor = connection.cursor()
+    for i in range(0,250):
+        sql = r"INSERT INTO Text1(link,imglink,point,pointer,info,CnName,OutName) VALUES('"+\
+              str(arr3[i * 7 + 0]) + "','" + \
+              str(arr3[i * 7 + 1]) + "','" + \
+              str(arr3[i * 7 + 2]) + "','" + \
+              str(arr3[i * 7 + 3]) + "','" + \
+              str(arr3[i * 7 + 4]) + "','" + \
+              str(arr3[i * 7 + 5]) + "','" + \
+              str(arr3[i * 7 + 6]) + "'" +");"
+        print(sql)
+    # sql = "CREATE TABLE t1(id int not null,name char(20));"
+        cursor.execute(sql)
+        connection.commit()
+
+    cursor.close()
+    connection.close()
 
 if __name__ == "__main__":
     #控制运行流程

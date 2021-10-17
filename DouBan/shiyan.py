@@ -1,6 +1,8 @@
-import numpy as np
-a = np.array([[1,2,3],[4,5,6]])
-# print(a)
-d = np.array([7,8,9])
-a = np.insert(a,1,d,0)
-print(a)
+arr2 = ["1'","2'","3'","4'"]
+arr3 = []
+
+for arr in arr2:
+    arr3.append(arr.replace("'", " "))
+
+for arr in arr3:
+    print(arr)
