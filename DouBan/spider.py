@@ -8,26 +8,38 @@ import urllib.request
 import urllib.parse
 # 自定义url
 
-import sqlite3 #进行sqlite数据库操作
+# import sqlite3
+#进行sqlite数据库操作
+import numpy #二维数组操作
 
+import openpyxl
+from openpyxl import load_workbook
+
+import pymysql.cursors
 
 def main():
     # print("hello")
-    baseurl = "https://movie.douban.com/top250?start=0&filter="
-    savepath = r"D:\ZPan\QianDuan\自助学习\2021大三上自学\爬虫-任务驱动\豆瓣class01.xlsx"
+    baseurl = "https://movie.douban.com/top250?start="
+    savepath = r"D:\ZPan\QianDuan\自助学习\2021大三上自学\爬虫-任务驱动\豆瓣\保存的表格\class01.xlsx"
 
-    # Top250Tab = load_workbook(savepath)
-    # Top250sheet = Top250Tab.active
-    # Top250Data = tuple(Top250sheet)
     # MuTabPathTxt = open("MuTabPath.txt", "w", encoding="utf-8")
     # MuTabPathTxt.write(Dir_choose)
 
     datalist = getData(baseurl)
+    # for x in range(len(datalist)):
+    #     for y in range(len(datalist[x])):
+    #         print(datalist[x][y])
+
+    print(datalist)
+    print(len(datalist))
+
+    saveData(savepath, datalist)
 
 # 控制爬取/筛选数据
 def getData(baseurl):
+    Top250data = [[""]]
     datalist = []
-    for i in range(0, 1):
+    for i in range(0, 10):
     # for i in range(0, 10):
         html = askURL(baseurl + str(i * 25))
         # datalist.append(html)
@@ -69,14 +81,9 @@ def getData(baseurl):
                 datalist.append(findTilte[0])
                 datalist.append("")
 
-            for o in  datalist:
-                print(o)
-                print("\n")
+            Top250data = numpy.array(datalist)
 
-            # print(datalist[1])
-            break
-
-    return datalist
+    return Top250data
 
 # 爬取独立函数
 def askURL(url):
@@ -99,10 +106,56 @@ def askURL(url):
 
     return html
 
-
 # 保存数据
-def saveData(savepath):
-    print("123")
+def saveData(savepath,arr2):
+    Top250Tab = load_workbook(savepath)
+    Top250sheet = Top250Tab.active
+    Top250Data = tuple(Top250sheet)
+
+    for y in range(0,250):
+        Top250Data[y][0].value = arr2[y * 7 + 0]
+        Top250Data[y][1].value = arr2[y * 7 + 1]
+        Top250Data[y][2].value = arr2[y * 7 + 2]
+        Top250Data[y][3].value = arr2[y * 7 + 3]
+        Top250Data[y][4].value = arr2[y * 7 + 4]
+        Top250Data[y][5].value = arr2[y * 7 + 5]
+        Top250Data[y][6].value = arr2[y * 7 + 6]
+
+    Top250Tab.save(savepath + "豆瓣Top250.xlsx")
+    saveinDB(arr2)
+
+
+def saveinDB(arr2):
+    arr3 = []
+    connection = pymysql.connect(host="192.168.75.143",
+                                 port=3306,
+                                 user="root",
+                                 password="ly86036609",
+                                 db='DouBanTop250',
+                                 charset="utf8",
+                                 )
+
+    for arr in arr2:
+        arr3.append(arr.replace("'", " "))
+
+    # try:
+    cursor = connection.cursor()
+    for i in range(0,250):
+        sql = r"INSERT INTO Text1(link,imglink,point,pointer,info,CnName,OutName) VALUES('"+\
+              str(arr3[i * 7 + 0]) + "','" + \
+              str(arr3[i * 7 + 1]) + "','" + \
+              str(arr3[i * 7 + 2]) + "','" + \
+              str(arr3[i * 7 + 3]) + "','" + \
+              str(arr3[i * 7 + 4]) + "','" + \
+              str(arr3[i * 7 + 5]) + "','" + \
+              str(arr3[i * 7 + 6]) + "'" +");"
+        print(sql)
+    # sql = "CREATE TABLE t1(id int not null,name char(20));"
+        cursor.execute(sql)
+        connection.commit()
+
+    cursor.close()
+    connection.close()
 
 if __name__ == "__main__":
     #控制运行流程
