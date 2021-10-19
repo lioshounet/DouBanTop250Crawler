@@ -29,26 +29,29 @@ def main():
     # MuTabPathTxt = open("MuTabPath.txt", "w", encoding="utf-8")
     # MuTabPathTxt.write(Dir_choose)
 
-    datalist = getData(baseurl)
+    path = str(time.strftime('%Y_%m_%d___%H_%M_%S', time.localtime()))
+    datalist = getData(baseurl,path)
+
+    DBTabName = "Top250__" + path
 
     print(datalist)
     print(len(datalist))
 
-    saveData(TabSavepath, datalist)
+    saveData(TabSavepath, datalist , DBTabName)
 
 
 # 控制爬取/筛选数据
-def getData(baseurl):
+def getData(baseurl ,path):
     Top250data = [[""]]
     datalist = []
 
-    path = str(time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime()))
     os.makedirs("../HTML/DoubanTop250" + path)
 
     for i in range(0, 10):
     # for i in range(0, 10):
         html = askURL(baseurl + str(i * 25))
 
+        #html保存
         HtmlTxt = open("../HTML/DoubanTop250"+path+"/"+str(i * 25) + ".txt", "w", encoding="utf-8")
         HtmlTxt.write(html)
 
@@ -117,7 +120,7 @@ def askURL(url):
     return html
 
 # 保存数据
-def saveData(savepath,arr2):
+def saveData(savepath,arr2 ,DBTabName):
     Top250Tab = load_workbook(savepath)
     Top250sheet = Top250Tab.active
     Top250Data = tuple(Top250sheet)
@@ -132,13 +135,13 @@ def saveData(savepath,arr2):
         Top250Data[y][6].value = arr2[y * 7 + 6]
 
     Top250Tab.save(savepath + "豆瓣Top250.xlsx")
-    # saveinDB(arr2)
+    saveinDB(arr2,DBTabName)
 
 def saveHTML(html,txtname):
     HtmlTxt = open(txtname+".txt", "w", encoding="utf-8")
     HtmlTxt.write(html)
 
-def saveinDB(arr2):
+def saveinDB(arr2,tabname):
     arr3 = []
     connection = pymysql.connect(host="192.168.75.143",
                                  port=3306,
@@ -153,16 +156,33 @@ def saveinDB(arr2):
 
     # try:
     cursor = connection.cursor()
-    for i in range(0,250):
-        sql = r"INSERT INTO Text1(link,imglink,point,pointer,info,CnName,OutName) VALUES('"+\
+
+    sql = r"CREATE TABLE "+\
+            tabname +\
+            "(`link`  varchar(255) NULL ,"+\
+            "`imglink`  varchar(255) NULL ,"+\
+            "`point`  varchar(255) NULL ,"+\
+            "`pointer`  varchar(255) NULL ,"+\
+            "`info`  varchar(255) NULL ,"+\
+            "`CnName`  varchar(255) NULL ,"+\
+            "`OutName`  varchar(255) NULL"+\
+            ");"
+    print(sql)
+
+    cursor.execute(sql)
+    connection.commit()
+
+    for i in range(0, 250):
+        sql = r"INSERT INTO " + tabname + \
+              r"(link,imglink,point,pointer,info,CnName,OutName) VALUES('" + \
               str(arr3[i * 7 + 0]) + "','" + \
               str(arr3[i * 7 + 1]) + "','" + \
               str(arr3[i * 7 + 2]) + "','" + \
               str(arr3[i * 7 + 3]) + "','" + \
               str(arr3[i * 7 + 4]) + "','" + \
               str(arr3[i * 7 + 5]) + "','" + \
-              str(arr3[i * 7 + 6]) + "'" +");"
-        print(sql)
+              str(arr3[i * 7 + 6]) + "'" + ");"
+
     # sql = "CREATE TABLE t1(id int not null,name char(20));"
         cursor.execute(sql)
         connection.commit()
