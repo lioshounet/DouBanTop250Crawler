@@ -276,17 +276,55 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">176</em>
-                    <a href="https://movie.douban.com/subject/1293181/">
-                        <img width="100" alt="惊魂记" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1021883305.jpg" class="">
+                    <em class="">126</em>
+                    <a href="https://movie.douban.com/subject/1305164/">
+                        <img width="100" alt="甜蜜蜜" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2223011274.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1293181/" class="">
-                            <span class="title">惊魂记</span>
-                                    <span class="title">&nbsp;/&nbsp;Psycho</span>
-                                <span class="other">&nbsp;/&nbsp;精神病患者  /  触目惊心(港)</span>
+                        <a href="https://movie.douban.com/subject/1305164/" class="">
+                            <span class="title">甜蜜蜜</span>
+                                <span class="other">&nbsp;/&nbsp;Comrades: Almost a Love Story</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 陈可辛 Peter Chan&nbsp;&nbsp;&nbsp;主演: 黎明 Leon Lai / 张曼玉 Maggie Cheung / ...<br>
+                            1996&nbsp;/&nbsp;中国香港&nbsp;/&nbsp;剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.9</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>444888人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">相逢只要一瞬间，等待却像是一辈子。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">127</em>
+                    <a href="https://movie.douban.com/subject/5989818/">
+                        <img width="100" alt="萤火之森" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1675053073.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/5989818/" class="">
+                            <span class="title">萤火之森</span>
+                                    <span class="title">&nbsp;/&nbsp;蛍火の杜へ</span>
+                                <span class="other">&nbsp;/&nbsp;萤火之社  /  Hotarubi no mori e</span>
                         </a>
 
 
@@ -294,8 +332,565 @@
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 阿尔弗雷德·希区柯克 Alfred Hitchcock&nbsp;&nbsp;&nbsp;主演: 安东尼·博金斯 Antho...<br>
-                            1960&nbsp;/&nbsp;美国&nbsp;/&nbsp;悬疑 惊悚 恐怖
+                            导演: 大森贵弘 Takahiro Omori&nbsp;&nbsp;&nbsp;主演: 佐仓绫音 Ayane Sakura / 内山昂辉 K...<br>
+                            2011&nbsp;/&nbsp;日本&nbsp;/&nbsp;剧情 爱情 动画 奇幻
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.9</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>445548人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">触不到的恋人。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">128</em>
+                    <a href="https://movie.douban.com/subject/2353023/">
+                        <img width="100" alt="驯龙高手" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2210954024.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/2353023/" class="">
+                            <span class="title">驯龙高手</span>
+                                    <span class="title">&nbsp;/&nbsp;How to Train Your Dragon</span>
+                                <span class="other">&nbsp;/&nbsp;驯龙记(港)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders&nbsp;&nbsp;&nbsp;主演:...<br>
+                            2010&nbsp;/&nbsp;美国&nbsp;/&nbsp;动画 奇幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>651897人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">和谐的生活离不开摸头与被摸头。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">129</em>
+                    <a href="https://movie.douban.com/subject/1292274/">
+                        <img width="100" alt="幸福终点站" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1292274/" class="">
+                            <span class="title">幸福终点站</span>
+                                    <span class="title">&nbsp;/&nbsp;The Terminal</span>
+                                <span class="other">&nbsp;/&nbsp;机场客运站(港)  /  航站情缘(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 史蒂文·斯皮尔伯格 Steven Spielberg&nbsp;&nbsp;&nbsp;主演: 汤姆·汉克斯 Tom Hanks...<br>
+                            2004&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>470437人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">有时候幸福需要等一等。 </span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">130</em>
+                    <a href="https://movie.douban.com/subject/3072124/">
+                        <img width="100" alt="玛丽和马克思" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p488255145.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/3072124/" class="">
+                            <span class="title">玛丽和马克思</span>
+                                    <span class="title">&nbsp;/&nbsp;Mary and Max</span>
+                                <span class="other">&nbsp;/&nbsp;巧克力情缘(台)  /  同是天涯寂寞客</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 亚当·艾略特 Adam Elliot&nbsp;&nbsp;&nbsp;主演: 托妮·科莱特 Toni Collette / 菲利...<br>
+                            2009&nbsp;/&nbsp;澳大利亚 美国&nbsp;/&nbsp;剧情 喜剧 动画
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.9</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>378592人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">你是我最好的朋友，你是我唯一的朋友 。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">131</em>
+                    <a href="https://movie.douban.com/subject/1291545/">
+                        <img width="100" alt="大鱼" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p692813374.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291545/" class="">
+                            <span class="title">大鱼</span>
+                                    <span class="title">&nbsp;/&nbsp;Big Fish</span>
+                                <span class="other">&nbsp;/&nbsp;大鱼奇缘(港)  /  大智若鱼(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 蒂姆·波顿 Tim Burton&nbsp;&nbsp;&nbsp;主演: 伊万·麦克格雷格 Ewan McGregor / 阿...<br>
+                            2003&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 家庭 奇幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>492260人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">抱着梦想而活着的人是幸福的，怀抱梦想而死去的人是不朽的。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">132</em>
+                    <a href="https://movie.douban.com/subject/4268598/">
+                        <img width="100" alt="告白" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p689520756.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/4268598/" class="">
+                            <span class="title">告白</span>
+                                <span class="other">&nbsp;/&nbsp;自白  /  母亲</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 中岛哲也 Tetsuya Nakashima&nbsp;&nbsp;&nbsp;主演: 松隆子 Takako Matsu / 冈田将生 ...<br>
+                            2010&nbsp;/&nbsp;日本&nbsp;/&nbsp;剧情 悬疑
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>598704人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">没有一人完全善，也没有一人完全恶。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">133</em>
+                    <a href="https://movie.douban.com/subject/10577869/">
+                        <img width="100" alt="时空恋旅人" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2070153774.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/10577869/" class="">
+                            <span class="title">时空恋旅人</span>
+                                    <span class="title">&nbsp;/&nbsp;About Time</span>
+                                <span class="other">&nbsp;/&nbsp;回到最爱的一天(港)  /  真爱每一天(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 理查德·柯蒂斯 Richard Curtis&nbsp;&nbsp;&nbsp;主演: 多姆纳尔·格里森 Domhnall Gl...<br>
+                            2013&nbsp;/&nbsp;英国&nbsp;/&nbsp;喜剧 爱情 奇幻
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>522211人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">把每天当作最后一天般珍惜度过，积极拥抱生活，就是幸福。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">134</em>
+                    <a href="https://movie.douban.com/subject/4917726/">
+                        <img width="100" alt="阳光姐妹淘" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1374786017.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/4917726/" class="">
+                            <span class="title">阳光姐妹淘</span>
+                                    <span class="title">&nbsp;/&nbsp;써니</span>
+                                <span class="other">&nbsp;/&nbsp;阳光姊妹淘(港)  /  桑尼</span>
+                        </a>
+
+
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 姜炯哲 Hyeong-Cheol Kang&nbsp;&nbsp;&nbsp;主演: 沈恩京 Eun-kyung Shim / 闵孝琳 Hy...<br>
+                            2011&nbsp;/&nbsp;韩国&nbsp;/&nbsp;剧情 喜剧
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.8</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>530158人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">再多各自牛逼的时光，也比不上一起傻逼的岁月。 </span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">135</em>
+                    <a href="https://movie.douban.com/subject/1291579/">
+                        <img width="100" alt="怪兽电力公司" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2513247938.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1291579/" class="">
+                            <span class="title">怪兽电力公司</span>
+                                    <span class="title">&nbsp;/&nbsp;Monsters, Inc.</span>
+                                <span class="other">&nbsp;/&nbsp;怪兽公司(港)  /  怪物公司</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 彼特·道格特 Pete Docter / 大卫·斯沃曼 David Silverman&nbsp;&nbsp;&nbsp;主演: 约...<br>
+                            2001&nbsp;/&nbsp;美国&nbsp;/&nbsp;儿童 喜剧 动画 奇幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>562896人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">不要给它起名字，起了名字就有感情了。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">136</em>
+                    <a href="https://movie.douban.com/subject/1316510/">
+                        <img width="100" alt="射雕英雄传之东成西就" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2609063925.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1316510/" class="">
+                            <span class="title">射雕英雄传之东成西就</span>
+                                    <span class="title">&nbsp;/&nbsp;射鵰英雄傳之東成西就</span>
+                                <span class="other">&nbsp;/&nbsp;东成西就  /  大英雄 (日本)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 刘镇伟 Jeffrey Lau&nbsp;&nbsp;&nbsp;主演: 梁朝伟 Tony Leung Chiu Wai / 林青霞 Bri...<br>
+                            1993&nbsp;/&nbsp;中国香港&nbsp;/&nbsp;喜剧 奇幻 武侠 古装
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>551647人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">百看不厌。 </span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">137</em>
+                    <a href="https://movie.douban.com/subject/3287562/">
+                        <img width="100" alt="神偷奶爸" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792776858.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/3287562/" class="">
+                            <span class="title">神偷奶爸</span>
+                                    <span class="title">&nbsp;/&nbsp;Despicable Me</span>
+                                <span class="other">&nbsp;/&nbsp;卑鄙的我  /  坏蛋奖门人(港)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 皮艾尔·柯芬 Pierre Coffin / 克里斯·雷纳德 Chris Renaud&nbsp;&nbsp;&nbsp;主演: ...<br>
+                            2010&nbsp;/&nbsp;美国 法国&nbsp;/&nbsp;喜剧 动画 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.6</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>825976人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">Mr. I Don&#39;t Care其实也有Care的时候。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">138</em>
+                    <a href="https://movie.douban.com/subject/1418200/">
+                        <img width="100" alt="傲慢与偏见" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2016401659.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1418200/" class="">
+                            <span class="title">傲慢与偏见</span>
+                                    <span class="title">&nbsp;/&nbsp;Pride &amp; Prejudice</span>
+                                <span class="other">&nbsp;/&nbsp;傲慢与偏见2005  /  Pride And Prejudice</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 乔·怀特 Joe Wright&nbsp;&nbsp;&nbsp;主演: 凯拉·奈特莉 Keira Knightley / 马修·...<br>
+                            2005&nbsp;/&nbsp;法国 英国 美国&nbsp;/&nbsp;剧情 爱情
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>669879人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">爱是摈弃傲慢与偏见之后的曙光。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">139</em>
+                    <a href="https://movie.douban.com/subject/21360417/">
+                        <img width="100" alt="恐怖直播" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2016930906.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/21360417/" class="">
+                            <span class="title">恐怖直播</span>
+                                    <span class="title">&nbsp;/&nbsp;더 테러 라이브</span>
+                                <span class="other">&nbsp;/&nbsp;死亡“动”新闻(港)  /  恐怖攻击直播(台)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 金秉祐 Byeong-woo Kim&nbsp;&nbsp;&nbsp;主演: 河正宇 Jung-woo Ha / 李璟荣 Kyeong-y...<br>
+                            2013&nbsp;/&nbsp;韩国&nbsp;/&nbsp;剧情 犯罪 悬疑
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>556390人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">恐怖分子的“秋菊打官司”。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">140</em>
+                    <a href="https://movie.douban.com/subject/1858711/">
+                        <img width="100" alt="玩具总动员3" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1283675359.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1858711/" class="">
+                            <span class="title">玩具总动员3</span>
+                                    <span class="title">&nbsp;/&nbsp;Toy Story 3</span>
+                                <span class="other">&nbsp;/&nbsp;反斗奇兵3(港)  /  玩具的故事3</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 李·昂克里奇 Lee Unkrich&nbsp;&nbsp;&nbsp;主演: 汤姆·汉克斯 Tom Hanks / 蒂姆·艾...<br>
+                            2010&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 动画 奇幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.9</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>433298人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">跨度十五年的欢乐与泪水。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">141</em>
+                    <a href="https://movie.douban.com/subject/1294240/">
+                        <img width="100" alt="教父3" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2169664351.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1294240/" class="">
+                            <span class="title">教父3</span>
+                                    <span class="title">&nbsp;/&nbsp;The Godfather: Part III</span>
+                                <span class="other">&nbsp;/&nbsp;教父第三集  /  教父 III</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 弗朗西斯·福特·科波拉 Francis Ford Coppola&nbsp;&nbsp;&nbsp;主演: 阿尔·帕西诺 A...<br>
+                            1990&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 犯罪
                         </p>
 
                         
@@ -303,11 +898,11 @@
                                 <span class="rating45-t"></span>
                                 <span class="rating_num" property="v:average">9.0</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>224565人评价</span>
+                                <span>305258人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">故事的反转与反转，分裂电影的始祖。</span>
+                                <span class="inq">任何信念的力量，都无法改变命运。</span>
                             </p>
                     </div>
                 </div>
@@ -316,66 +911,25 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">177</em>
-                    <a href="https://movie.douban.com/subject/25773932/">
-                        <img width="100" alt="爆裂鼓手" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2220776342.jpg" class="">
+                    <em class="">142</em>
+                    <a href="https://movie.douban.com/subject/25986180/">
+                        <img width="100" alt="釜山行" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2360940399.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/25773932/" class="">
-                            <span class="title">爆裂鼓手</span>
-                                    <span class="title">&nbsp;/&nbsp;Whiplash</span>
-                                <span class="other">&nbsp;/&nbsp;鼓动真我(港)  /  进击的鼓手(台)</span>
+                        <a href="https://movie.douban.com/subject/25986180/" class="">
+                            <span class="title">釜山行</span>
+                                    <span class="title">&nbsp;/&nbsp;부산행</span>
+                                <span class="other">&nbsp;/&nbsp;尸杀列车(港)  /  尸速列车(台)</span>
                         </a>
 
 
-                            <span class="playable">[可播放]</span>
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 达米恩·查泽雷 Damien Chazelle&nbsp;&nbsp;&nbsp;主演: 迈尔斯·特勒 Miles Teller /...<br>
-                            2014&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 音乐
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.7</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>486906人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">这个世界从不善待努力的人，努力了也不一定会成功，但是知道自己在努力，就是活下去的动力。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">178</em>
-                    <a href="https://movie.douban.com/subject/2209573/">
-                        <img width="100" alt="贫民窟的百万富翁" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p792430365.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/2209573/" class="">
-                            <span class="title">贫民窟的百万富翁</span>
-                                    <span class="title">&nbsp;/&nbsp;Slumdog Millionaire</span>
-                                <span class="other">&nbsp;/&nbsp;一百万零一夜(港)  /  贫民百万富翁(台)</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 丹尼·鲍尔 Danny Boyle / 洛芙琳·坦丹 Loveleen Tandan&nbsp;&nbsp;&nbsp;主演: 戴夫...<br>
-                            2008&nbsp;/&nbsp;英国&nbsp;/&nbsp;剧情 爱情
+                            导演: 延尚昊 Sang-ho Yeon&nbsp;&nbsp;&nbsp;主演: 孔侑 Yoo Gong / 郑有美 Yu-mi Jung / 马...<br>
+                            2016&nbsp;/&nbsp;韩国&nbsp;/&nbsp;动作 惊悚 灾难
                         </p>
 
                         
@@ -383,11 +937,11 @@
                                 <span class="rating45-t"></span>
                                 <span class="rating_num" property="v:average">8.6</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>651276人评价</span>
+                                <span>1013071人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">上帝之城+猜火车+阿甘正传+开心辞典=山寨富翁</span>
+                                <span class="inq">揭露人性的丧尸题材力作。</span>
                             </p>
                     </div>
                 </div>
@@ -396,17 +950,17 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">179</em>
-                    <a href="https://movie.douban.com/subject/1292401/">
-                        <img width="100" alt="真爱至上" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p475600770.jpg" class="">
+                    <em class="">143</em>
+                    <a href="https://movie.douban.com/subject/26628357/">
+                        <img width="100" alt="一个叫欧维的男人决定去死" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2406624993.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1292401/" class="">
-                            <span class="title">真爱至上</span>
-                                    <span class="title">&nbsp;/&nbsp;Love Actually</span>
-                                <span class="other">&nbsp;/&nbsp;真的恋爱了(港)  /  爱是您，爱是我(台)</span>
+                        <a href="https://movie.douban.com/subject/26628357/" class="">
+                            <span class="title">一个叫欧维的男人决定去死</span>
+                                    <span class="title">&nbsp;/&nbsp;En man som heter Ove</span>
+                                <span class="other">&nbsp;/&nbsp;明天别再来敲门(台)  /  想死冇咁易(港)</span>
                         </a>
 
 
@@ -414,124 +968,8 @@
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 理查德·柯蒂斯 Richard Curtis&nbsp;&nbsp;&nbsp;主演: 休·格兰特 Hugh Grant / 柯林...<br>
-                            2003&nbsp;/&nbsp;英国 美国 法国&nbsp;/&nbsp;喜剧 剧情 爱情
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.6</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>619906人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">爱，是个动词。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">180</em>
-                    <a href="https://movie.douban.com/subject/1292328/">
-                        <img width="100" alt="东邪西毒" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1982176012.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1292328/" class="">
-                            <span class="title">东邪西毒</span>
-                                    <span class="title">&nbsp;/&nbsp;東邪西毒</span>
-                                <span class="other">&nbsp;/&nbsp;Ashes of Time</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 王家卫 Kar Wai Wong&nbsp;&nbsp;&nbsp;主演: 张国荣 Leslie Cheung / 林青霞 Brigitte...<br>
-                            1994&nbsp;/&nbsp;中国香港 中国台湾&nbsp;/&nbsp;剧情 动作 爱情 武侠 古装
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.6</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>504467人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">电影诗。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">181</em>
-                    <a href="https://movie.douban.com/subject/1297518/">
-                        <img width="100" alt="九品芝麻官" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p648370300.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1297518/" class="">
-                            <span class="title">九品芝麻官</span>
-                                <span class="other">&nbsp;/&nbsp;九品芝麻官之白面包青天  /  Hail the Judge</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 王晶 Jing Wong&nbsp;&nbsp;&nbsp;主演: 周星驰 Stephen Chow / 吴孟达 Man Tat Ng / ...<br>
-                            1994&nbsp;/&nbsp;中国香港 中国大陆&nbsp;/&nbsp;剧情 喜剧 古装
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.6</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>533756人评价</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">182</em>
-                    <a href="https://movie.douban.com/subject/1300374/">
-                        <img width="100" alt="绿里奇迹" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p767586451.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1300374/" class="">
-                            <span class="title">绿里奇迹</span>
-                                    <span class="title">&nbsp;/&nbsp;The Green Mile</span>
-                                <span class="other">&nbsp;/&nbsp;绿色奇迹(台)  /  绿色英里</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: Frank Darabont&nbsp;&nbsp;&nbsp;主演: 汤姆·汉克斯 Tom Hanks / 大卫·摩斯 David M...<br>
-                            1999&nbsp;/&nbsp;美国&nbsp;/&nbsp;犯罪 剧情 奇幻 悬疑
+                            导演: 汉内斯·赫尔姆 Hannes Holm&nbsp;&nbsp;&nbsp;主演: 罗夫·拉斯加德 Rolf Lassgård...<br>
+                            2015&nbsp;/&nbsp;瑞典&nbsp;/&nbsp;剧情
                         </p>
 
                         
@@ -539,11 +977,11 @@
                                 <span class="rating45-t"></span>
                                 <span class="rating_num" property="v:average">8.9</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>263311人评价</span>
+                                <span>365673人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">天使暂时离开。</span>
+                                <span class="inq">惠及一生的美丽。</span>
                             </p>
                     </div>
                 </div>
@@ -552,17 +990,16 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">183</em>
-                    <a href="https://movie.douban.com/subject/27622447/">
-                        <img width="100" alt="小偷家族" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2530599636.jpg" class="">
+                    <em class="">144</em>
+                    <a href="https://movie.douban.com/subject/1307315/">
+                        <img width="100" alt="哪吒闹海" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532803206.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/27622447/" class="">
-                            <span class="title">小偷家族</span>
-                                    <span class="title">&nbsp;/&nbsp;万引き家族</span>
-                                <span class="other">&nbsp;/&nbsp;Shoplifters  /  Une Affaire de Famille</span>
+                        <a href="https://movie.douban.com/subject/1307315/" class="">
+                            <span class="title">哪吒闹海</span>
+                                <span class="other">&nbsp;/&nbsp;Prince Nezha&#39;s Triumph Against Dragon King  /  Nezha Conquers the Dragon King</span>
                         </a>
 
 
@@ -570,447 +1007,8 @@
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 是枝裕和 Hirokazu Koreeda&nbsp;&nbsp;&nbsp;主演: 中川雅也 Lily Franky / 安藤樱 Sa...<br>
-                            2018&nbsp;/&nbsp;日本&nbsp;/&nbsp;剧情 犯罪 家庭
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.7</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>711078人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">我们组成了家。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">184</em>
-                    <a href="https://movie.douban.com/subject/10808442/">
-                        <img width="100" alt="爱在午夜降临前" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2074715729.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/10808442/" class="">
-                            <span class="title">爱在午夜降临前</span>
-                                    <span class="title">&nbsp;/&nbsp;Before Midnight</span>
-                                <span class="other">&nbsp;/&nbsp;情约半生(港)  /  爱在午夜希腊时(台)</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 理查德·林克莱特 Richard Linklater&nbsp;&nbsp;&nbsp;主演: 伊桑·霍克 Ethan Hawke ...<br>
-                            2013&nbsp;/&nbsp;美国 希腊&nbsp;/&nbsp;剧情 爱情
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.8</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>311603人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">所谓爱情，就是话唠一路，都不会心生腻烦，彼此嫌弃。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">185</em>
-                    <a href="https://movie.douban.com/subject/6534248/">
-                        <img width="100" alt="无敌破坏王" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1735642656.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/6534248/" class="">
-                            <span class="title">无敌破坏王</span>
-                                    <span class="title">&nbsp;/&nbsp;Wreck-It Ralph</span>
-                                <span class="other">&nbsp;/&nbsp;破坏王拉尔夫  /  破坏王大冒险</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 瑞奇·莫尔 Rich Moore&nbsp;&nbsp;&nbsp;主演: 约翰·C·赖利 John C. Reilly / 萨拉...<br>
-                            2012&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 动画 奇幻 冒险
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.7</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>455787人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">迪士尼和皮克斯拿错剧本的产物。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">186</em>
-                    <a href="https://movie.douban.com/subject/1978709/">
-                        <img width="100" alt="黑天鹅" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2549648344.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1978709/" class="">
-                            <span class="title">黑天鹅</span>
-                                    <span class="title">&nbsp;/&nbsp;Black Swan</span>
-                                <span class="other">&nbsp;/&nbsp;夺命黑天鹅  /  霸王别鹅(豆友译名)</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 达伦·阿罗诺夫斯基 Darren Aronofsky&nbsp;&nbsp;&nbsp;主演: 娜塔莉·波特曼 Natalie...<br>
-                            2010&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 惊悚
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.6</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>704725人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">黑暗之美。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">187</em>
-                    <a href="https://movie.douban.com/subject/1291578/">
-                        <img width="100" alt="冰川时代" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910895719.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1291578/" class="">
-                            <span class="title">冰川时代</span>
-                                    <span class="title">&nbsp;/&nbsp;Ice Age</span>
-                                <span class="other">&nbsp;/&nbsp;冰河世纪  /  冰原历险记</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 卡洛斯·沙尔丹哈 Carlos Saldanha / 克里斯·韦奇 Chris Wedge&nbsp;&nbsp;&nbsp;主演...<br>
-                            2002&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 动画 冒险
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.6</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>532681人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">松鼠才是角儿。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">188</em>
-                    <a href="https://movie.douban.com/subject/4848115/">
-                        <img width="100" alt="你看起来好像很好吃" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p709670262.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/4848115/" class="">
-                            <span class="title">你看起来好像很好吃</span>
-                                    <span class="title">&nbsp;/&nbsp;おまえうまそうだな</span>
-                                <span class="other">&nbsp;/&nbsp;你看起来很好吃(台)  /  你看上去好像很好吃</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 藤森雅也 Masaya Fujimori&nbsp;&nbsp;&nbsp;主演: 山口胜平 Kappei Yamaguchi / 爱河...<br>
-                            2010&nbsp;/&nbsp;日本&nbsp;/&nbsp;剧情 动画 儿童
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.9</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>289000人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">感情不分食草或者食肉。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">189</em>
-                    <a href="https://movie.douban.com/subject/1293318/">
-                        <img width="100" alt="萤火虫之墓" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2237136718.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1293318/" class="">
-                            <span class="title">萤火虫之墓</span>
-                                    <span class="title">&nbsp;/&nbsp;火垂るの墓</span>
-                                <span class="other">&nbsp;/&nbsp;再见萤火虫(港)  /  萤火挽歌</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 高畑勋 Isao Takahata&nbsp;&nbsp;&nbsp;主演: 辰己努 / 白石绫乃 / 志乃原良子<br>
-                            1988&nbsp;/&nbsp;日本&nbsp;/&nbsp;动画 剧情 战争
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.7</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>363696人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">幸福是生生不息，却难以触及的远。 </span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">190</em>
-                    <a href="https://movie.douban.com/subject/1862151/">
-                        <img width="100" alt="疯狂的石头" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p712241453.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1862151/" class="">
-                            <span class="title">疯狂的石头</span>
-                                <span class="other">&nbsp;/&nbsp;Crazy Stone</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 宁浩 Hao Ning&nbsp;&nbsp;&nbsp;主演: 郭涛 Tao Guo / 刘桦 Hua Liu / 连晋 Teddy Lin<br>
-                            2006&nbsp;/&nbsp;中国大陆 中国香港&nbsp;/&nbsp;喜剧 犯罪
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.5</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>691673人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">中国版《两杆大烟枪》。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">191</em>
-                    <a href="https://movie.douban.com/subject/1291870/">
-                        <img width="100" alt="雨人" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2353324612.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1291870/" class="">
-                            <span class="title">雨人</span>
-                                    <span class="title">&nbsp;/&nbsp;Rain Man</span>
-                                <span class="other">&nbsp;/&nbsp;手足情未了(港)  /  手足情深</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 巴瑞·莱文森 Barry Levinson&nbsp;&nbsp;&nbsp;主演: 达斯汀·霍夫曼 Dustin Hoffman ...<br>
-                            1988&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.7</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>353530人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">生活在自己的世界里，也可以让周围的人显得可笑和渺小。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">192</em>
-                    <a href="https://movie.douban.com/subject/1309163/">
-                        <img width="100" alt="恋恋笔记本" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p483604864.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1309163/" class="">
-                            <span class="title">恋恋笔记本</span>
-                                    <span class="title">&nbsp;/&nbsp;The Notebook</span>
-                                <span class="other">&nbsp;/&nbsp;忘了·忘不了(港)  /  手札情缘(台)</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 尼克·卡索维茨 Nick Cassavetes&nbsp;&nbsp;&nbsp;主演: 瑞恩·高斯林 Ryan Gosling /...<br>
-                            2004&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 爱情
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.6</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>565936人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">爱情没有那么多借口，如果不能圆满，只能说明爱的不够。 </span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">193</em>
-                    <a href="https://movie.douban.com/subject/3011051/">
-                        <img width="100" alt="恐怖游轮" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p462470694.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/3011051/" class="">
-                            <span class="title">恐怖游轮</span>
-                                    <span class="title">&nbsp;/&nbsp;Triangle</span>
-                                <span class="other">&nbsp;/&nbsp;汪洋血迷宮(台)  /  轮回三角</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 克里斯托弗·史密斯 Christopher Smith&nbsp;&nbsp;&nbsp;主演: 梅利莎·乔治 Melissa ...<br>
-                            2009&nbsp;/&nbsp;英国 澳大利亚&nbsp;/&nbsp;剧情 悬疑 惊悚
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.5</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>686602人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">不要企图在重复中寻找已经失去的爱。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">194</em>
-                    <a href="https://movie.douban.com/subject/1293460/">
-                        <img width="100" alt="雨中曲" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1612355875.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1293460/" class="">
-                            <span class="title">雨中曲</span>
-                                    <span class="title">&nbsp;/&nbsp;Singin&#39; in the Rain</span>
-                                <span class="other">&nbsp;/&nbsp;万花嬉春(港 / 台) </span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 斯坦利·多南 Stanley Donen / 吉恩·凯利 Gene Kelly&nbsp;&nbsp;&nbsp;主演: 吉恩·...<br>
-                            1952&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 歌舞 爱情
+                            导演: 严定宪 Dingxian Yan / 王树忱 Shuchen Wang&nbsp;&nbsp;&nbsp;主演: 梁正晖 Zhenghui ...<br>
+                            1979&nbsp;/&nbsp;中国大陆&nbsp;/&nbsp;冒险 动画 奇幻
                         </p>
 
                         
@@ -1018,11 +1016,11 @@
                                 <span class="rating45-t"></span>
                                 <span class="rating_num" property="v:average">9.1</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>179397人评价</span>
+                                <span>216680人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">骨灰级歌舞片。</span>
+                                <span class="inq">想你时你在闹海。</span>
                             </p>
                     </div>
                 </div>
@@ -1031,36 +1029,38 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">195</em>
-                    <a href="https://movie.douban.com/subject/1828115/">
-                        <img width="100" alt="色，戒" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p453716305.jpg" class="">
+                    <em class="">145</em>
+                    <a href="https://movie.douban.com/subject/6307447/">
+                        <img width="100" alt="被解救的姜戈" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1800813767.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1828115/" class="">
-                            <span class="title">色，戒</span>
-                                <span class="other">&nbsp;/&nbsp;色|戒  /  色·戒</span>
+                        <a href="https://movie.douban.com/subject/6307447/" class="">
+                            <span class="title">被解救的姜戈</span>
+                                    <span class="title">&nbsp;/&nbsp;Django Unchained</span>
+                                <span class="other">&nbsp;/&nbsp;被解放的姜戈  /  决杀令(台)</span>
                         </a>
 
 
+                            <span class="playable">[可播放]</span>
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 李安 Ang Lee&nbsp;&nbsp;&nbsp;主演: 梁朝伟 Tony Leung Chiu Wai / 汤唯 Wei Tang / ...<br>
-                            2007&nbsp;/&nbsp;中国台湾 中国大陆 美国 中国香港&nbsp;/&nbsp;剧情 爱情 情色
+                            导演: 昆汀·塔伦蒂诺 Quentin Tarantino&nbsp;&nbsp;&nbsp;主演: 杰米·福克斯 Jamie Foxx /...<br>
+                            2012&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 动作 西部 冒险
                         </p>
 
                         
                         <div class="star">
                                 <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.5</span>
+                                <span class="rating_num" property="v:average">8.8</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>612215人评价</span>
+                                <span>515549人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">假戏真情，爱欲深海</span>
+                                <span class="inq">热血沸腾，那个低俗、性感的无耻混蛋又来了。</span>
                             </p>
                     </div>
                 </div>
@@ -1069,25 +1069,26 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">196</em>
-                    <a href="https://movie.douban.com/subject/1307811/">
-                        <img width="100" alt="魔女宅急便" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p456676352.jpg" class="">
+                    <em class="">146</em>
+                    <a href="https://movie.douban.com/subject/26325320/">
+                        <img width="100" alt="血战钢锯岭" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2398141939.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1307811/" class="">
-                            <span class="title">魔女宅急便</span>
-                                    <span class="title">&nbsp;/&nbsp;魔女の宅急便</span>
-                                <span class="other">&nbsp;/&nbsp;魔女琪琪(台)  /  小魔女限时专送</span>
+                        <a href="https://movie.douban.com/subject/26325320/" class="">
+                            <span class="title">血战钢锯岭</span>
+                                    <span class="title">&nbsp;/&nbsp;Hacksaw Ridge</span>
+                                <span class="other">&nbsp;/&nbsp;钢锯岭  /  钢铁英雄(台)</span>
                         </a>
 
 
+                            <span class="playable">[可播放]</span>
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 宫崎骏 Hayao Miyazaki&nbsp;&nbsp;&nbsp;主演: 高山南 Minami Takayama / 佐久间玲 Re...<br>
-                            1989&nbsp;/&nbsp;日本&nbsp;/&nbsp;动画 奇幻 冒险
+                            导演: 梅尔·吉布森 Mel Gibson&nbsp;&nbsp;&nbsp;主演: 安德鲁·加菲尔德 Andrew Garfield /...<br>
+                            2016&nbsp;/&nbsp;澳大利亚 美国&nbsp;/&nbsp;剧情 传记 历史 战争
                         </p>
 
                         
@@ -1095,11 +1096,11 @@
                                 <span class="rating45-t"></span>
                                 <span class="rating_num" property="v:average">8.7</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>392843人评价</span>
+                                <span>680456人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">宫崎骏的电影总让人感觉世界是美好的，阳光明媚的。</span>
+                                <span class="inq">优秀的战争片不会美化战场，不会粉饰死亡，不会矮化敌人，不会无视常识，最重要的，不会宣扬战争。</span>
                             </p>
                     </div>
                 </div>
@@ -1108,38 +1109,37 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">197</em>
-                    <a href="https://movie.douban.com/subject/1292226/">
-                        <img width="100" alt="2001太空漫游" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2560717825.jpg" class="">
+                    <em class="">147</em>
+                    <a href="https://movie.douban.com/subject/1395091/">
+                        <img width="100" alt="未麻的部屋" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1351050722.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1292226/" class="">
-                            <span class="title">2001太空漫游</span>
-                                    <span class="title">&nbsp;/&nbsp;2001: A Space Odyssey</span>
-                                <span class="other">&nbsp;/&nbsp;2001：星际漫游  /  2001：太空奥德赛</span>
+                        <a href="https://movie.douban.com/subject/1395091/" class="">
+                            <span class="title">未麻的部屋</span>
+                                    <span class="title">&nbsp;/&nbsp;Perfect Blue</span>
+                                <span class="other">&nbsp;/&nbsp;蓝色恐惧(港 / 台) </span>
                         </a>
 
 
-                            <span class="playable">[可播放]</span>
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 斯坦利·库布里克 Stanley Kubrick&nbsp;&nbsp;&nbsp;主演: 凯尔·杜拉 Keir Dullea / ...<br>
-                            1968&nbsp;/&nbsp;英国 美国&nbsp;/&nbsp;科幻 惊悚 冒险
+                            导演: 今敏 Satoshi Kon&nbsp;&nbsp;&nbsp;主演: 岩男润子 Junko Iwao / 松本梨香 Rica Matsu...<br>
+                            1997&nbsp;/&nbsp;日本&nbsp;/&nbsp;动画 奇幻 惊悚
                         </p>
 
                         
                         <div class="star">
                                 <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.8</span>
+                                <span class="rating_num" property="v:average">9.0</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>257490人评价</span>
+                                <span>254992人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">现代科幻电影的开山之作，最伟大导演的最伟大影片。</span>
+                                <span class="inq">好的剧本是，就算你猜到了结局也猜不到全部。</span>
                             </p>
                     </div>
                 </div>
@@ -1148,17 +1148,17 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">198</em>
-                    <a href="https://movie.douban.com/subject/1293908/">
-                        <img width="100" alt="城市之光" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2170238828.jpg" class="">
+                    <em class="">148</em>
+                    <a href="https://movie.douban.com/subject/4920389/">
+                        <img width="100" alt="头号玩家" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2516578307.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1293908/" class="">
-                            <span class="title">城市之光</span>
-                                    <span class="title">&nbsp;/&nbsp;City Lights</span>
-                                <span class="other">&nbsp;/&nbsp;City Lights: A Comedy Romance in Pantomime  /  Lichter der Großstadt</span>
+                        <a href="https://movie.douban.com/subject/4920389/" class="">
+                            <span class="title">头号玩家</span>
+                                    <span class="title">&nbsp;/&nbsp;Ready Player One</span>
+                                <span class="other">&nbsp;/&nbsp;玩家一号  /  挑战者1号(港)</span>
                         </a>
 
 
@@ -1166,8 +1166,48 @@
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: Charles Chaplin&nbsp;&nbsp;&nbsp;主演: 查理·卓别林 Charles Chaplin / 弗吉尼亚·...<br>
-                            1931&nbsp;/&nbsp;美国&nbsp;/&nbsp;喜剧 剧情 爱情
+                            导演: 史蒂文·斯皮尔伯格 Steven Spielberg&nbsp;&nbsp;&nbsp;主演: 泰伊·谢里丹 Tye Sheri...<br>
+                            2018&nbsp;/&nbsp;美国&nbsp;/&nbsp;动作 科幻 冒险
+                        </p>
+
+                        
+                        <div class="star">
+                                <span class="rating45-t"></span>
+                                <span class="rating_num" property="v:average">8.7</span>
+                                <span property="v:best" content="10.0"></span>
+                                <span>1179219人评价</span>
+                        </div>
+
+                            <p class="quote">
+                                <span class="inq">写给影迷，动漫迷和游戏迷的一封情书。</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="item">
+                <div class="pic">
+                    <em class="">149</em>
+                    <a href="https://movie.douban.com/subject/1295399/">
+                        <img width="100" alt="七武士" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2215886505.jpg" class="">
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <a href="https://movie.douban.com/subject/1295399/" class="">
+                            <span class="title">七武士</span>
+                                    <span class="title">&nbsp;/&nbsp;七人の侍</span>
+                                <span class="other">&nbsp;/&nbsp;七侠四义(港)  /  七剑客(港)</span>
+                        </a>
+
+
+                            <span class="playable">[可播放]</span>
+                    </div>
+                    <div class="bd">
+                        <p class="">
+                            导演: 黑泽明 Akira Kurosawa&nbsp;&nbsp;&nbsp;主演: 三船敏郎 Toshirô Mifune / 志村乔 ...<br>
+                            1954&nbsp;/&nbsp;日本&nbsp;/&nbsp;动作 冒险 剧情
                         </p>
 
                         
@@ -1175,11 +1215,11 @@
                                 <span class="rating45-t"></span>
                                 <span class="rating_num" property="v:average">9.3</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>117679人评价</span>
+                                <span>164480人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">永远的小人物，伟大的卓别林。</span>
+                                <span class="inq">时代悲歌。</span>
                             </p>
                     </div>
                 </div>
@@ -1188,17 +1228,17 @@
         <li>
             <div class="item">
                 <div class="pic">
-                    <em class="">199</em>
-                    <a href="https://movie.douban.com/subject/1296909/">
-                        <img width="100" alt="虎口脱险" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2399597512.jpg" class="">
+                    <em class="">150</em>
+                    <a href="https://movie.douban.com/subject/1306861/">
+                        <img width="100" alt="我是山姆" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p652417775.jpg" class="">
                     </a>
                 </div>
                 <div class="info">
                     <div class="hd">
-                        <a href="https://movie.douban.com/subject/1296909/" class="">
-                            <span class="title">虎口脱险</span>
-                                    <span class="title">&nbsp;/&nbsp;La grande vadrouille</span>
-                                <span class="other">&nbsp;/&nbsp;横冲直撞出重围(港)  /  大進擊(台)</span>
+                        <a href="https://movie.douban.com/subject/1306861/" class="">
+                            <span class="title">我是山姆</span>
+                                    <span class="title">&nbsp;/&nbsp;I Am Sam</span>
+                                <span class="other">&nbsp;/&nbsp;不一样的爸爸(港)  /  他不笨，他是我爸爸(台)</span>
                         </a>
 
 
@@ -1206,59 +1246,20 @@
                     </div>
                     <div class="bd">
                         <p class="">
-                            导演: 杰拉尔·乌里 Gérard Oury&nbsp;&nbsp;&nbsp;主演: 路易·德·菲耐斯 Louis de Funès...<br>
-                            1966&nbsp;/&nbsp;法国 英国&nbsp;/&nbsp;喜剧 战争
+                            导演: 杰茜·尼尔森 Jessie Nelson&nbsp;&nbsp;&nbsp;主演: Sean Penn / Dakota Fanning / Mi...<br>
+                            2001&nbsp;/&nbsp;美国&nbsp;/&nbsp;剧情 家庭
                         </p>
 
                         
                         <div class="star">
                                 <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.9</span>
+                                <span class="rating_num" property="v:average">9.0</span>
                                 <span property="v:best" content="10.0"></span>
-                                <span>209513人评价</span>
+                                <span>274726人评价</span>
                         </div>
 
                             <p class="quote">
-                                <span class="inq">永远看不腻的喜剧。</span>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="item">
-                <div class="pic">
-                    <em class="">200</em>
-                    <a href="https://movie.douban.com/subject/1308857/">
-                        <img width="100" alt="可可西里" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2363208684.jpg" class="">
-                    </a>
-                </div>
-                <div class="info">
-                    <div class="hd">
-                        <a href="https://movie.douban.com/subject/1308857/" class="">
-                            <span class="title">可可西里</span>
-                                <span class="other">&nbsp;/&nbsp;Kekexili: Mountain Patrol</span>
-                        </a>
-
-
-                            <span class="playable">[可播放]</span>
-                    </div>
-                    <div class="bd">
-                        <p class="">
-                            导演: 陆川 Chuan Lu&nbsp;&nbsp;&nbsp;主演: 多布杰 Duobujie / 张磊 Lei Zhang / 亓亮 Qi L...<br>
-                            2004&nbsp;/&nbsp;中国大陆 中国香港&nbsp;/&nbsp;剧情 犯罪
-                        </p>
-
-                        
-                        <div class="star">
-                                <span class="rating45-t"></span>
-                                <span class="rating_num" property="v:average">8.8</span>
-                                <span property="v:best" content="10.0"></span>
-                                <span>255066人评价</span>
-                        </div>
-
-                            <p class="quote">
-                                <span class="inq">坚硬的信仰。</span>
+                                <span class="inq">爱并不需要智商 。</span>
                             </p>
                     </div>
                 </div>
@@ -1274,8 +1275,8 @@
 
         <div class="paginator">
         <span class="prev">
-            <link rel="prev" href="?start=150&amp;filter="/>
-            <a href="?start=150&amp;filter=" >&lt;前页</a>
+            <link rel="prev" href="?start=100&amp;filter="/>
+            <a href="?start=100&amp;filter=" >&lt;前页</a>
         </span>
         
         
@@ -1295,13 +1296,13 @@
                 
             <a href="?start=100&amp;filter=" >5</a>
         
-                
-            <a href="?start=125&amp;filter=" >6</a>
-        
+                <span class="thispage">6</span>
                 
             <a href="?start=150&amp;filter=" >7</a>
         
-                <span class="thispage">8</span>
+                
+            <a href="?start=175&amp;filter=" >8</a>
+        
                 
             <a href="?start=200&amp;filter=" >9</a>
         
@@ -1309,8 +1310,8 @@
             <a href="?start=225&amp;filter=" >10</a>
         
         <span class="next">
-            <link rel="next" href="?start=200&amp;filter="/>
-            <a href="?start=200&amp;filter=" >后页&gt;</a>
+            <link rel="next" href="?start=150&amp;filter="/>
+            <a href="?start=150&amp;filter=" >后页&gt;</a>
         </span>
 
             <span class="count">(共250条)</span>
@@ -1406,8 +1407,8 @@ var account_pop={open:function(o,e){e?referrer="?referrer="+encodeURIComponent(e
             existingNode = global.document.getElementsByTagName('script')[0],
             adSource = '//erebor.douban.com/',
             userId = '',
-            browserId = 'sO_M1GrTIr4',
-            criteria = '3:/top250?start=175',
+            browserId = 'tu1mknvcjuI',
+            criteria = '3:/top250?start=125',
             preview = '',
             debug = false,
             adSlots = ['dale_movie_top250_bottom_right'];
@@ -1468,7 +1469,7 @@ _paq.push(['enableLinkTracking']);
 
       
 
-    <!-- dae-web-movie--default-854c869667-jf8bk-->
+    <!-- dae-web-movie--default-6d4f4cfd75-c7tcs-->
 
   <script>_SPLITTEST=''</script>
 </body>
