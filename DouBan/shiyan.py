@@ -1,8 +1,6 @@
-arr2 = ["1'","2'","3'","4'"]
-arr3 = []
+import os
+import time
 
-for arr in arr2:
-    arr3.append(arr.replace("'", " "))
-
-for arr in arr3:
-    print(arr)
+path = str(time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime()))
+os.makedirs("../HTML/DoubanTop250"+path)
+print(path)

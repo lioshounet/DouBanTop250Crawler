@@ -12,6 +12,9 @@ import urllib.parse
 #进行sqlite数据库操作
 import numpy #二维数组操作
 
+
+import os
+import time
 import openpyxl
 from openpyxl import load_workbook
 
@@ -20,28 +23,35 @@ import pymysql.cursors
 def main():
     # print("hello")
     baseurl = "https://movie.douban.com/top250?start="
-    savepath = r"D:\ZPan\QianDuan\自助学习\2021大三上自学\爬虫-任务驱动\豆瓣\保存的表格\class01.xlsx"
+    TabSavepath = r"D:\ZPan\QianDuan\自助学习\2021大三上自学\爬虫-任务驱动\豆瓣\保存的表格\class01.xlsx"
+
 
     # MuTabPathTxt = open("MuTabPath.txt", "w", encoding="utf-8")
     # MuTabPathTxt.write(Dir_choose)
 
     datalist = getData(baseurl)
-    # for x in range(len(datalist)):
-    #     for y in range(len(datalist[x])):
-    #         print(datalist[x][y])
 
     print(datalist)
     print(len(datalist))
 
-    saveData(savepath, datalist)
+    saveData(TabSavepath, datalist)
+
 
 # 控制爬取/筛选数据
 def getData(baseurl):
     Top250data = [[""]]
     datalist = []
+
+    path = str(time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime()))
+    os.makedirs("../HTML/DoubanTop250" + path)
+
     for i in range(0, 10):
     # for i in range(0, 10):
         html = askURL(baseurl + str(i * 25))
+
+        HtmlTxt = open("../HTML/DoubanTop250"+path+"/"+str(i * 25) + ".txt", "w", encoding="utf-8")
+        HtmlTxt.write(html)
+
         # datalist.append(html)
         soup = BeautifulSoup(html,"html.parser")
         # 剥离电影div
@@ -97,7 +107,7 @@ def askURL(url):
     try:
         response = urllib.request.urlopen(request)
         html = response.read().decode('utf-8')
-        # print(html)
+
     except urllib.error.URLError as e:
         if hasattr(e,"code"):
             print(e.code)
@@ -122,8 +132,11 @@ def saveData(savepath,arr2):
         Top250Data[y][6].value = arr2[y * 7 + 6]
 
     Top250Tab.save(savepath + "豆瓣Top250.xlsx")
-    saveinDB(arr2)
+    # saveinDB(arr2)
 
+def saveHTML(html,txtname):
+    HtmlTxt = open(txtname+".txt", "w", encoding="utf-8")
+    HtmlTxt.write(html)
 
 def saveinDB(arr2):
     arr3 = []
