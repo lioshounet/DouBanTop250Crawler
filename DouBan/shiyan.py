@@ -72,4 +72,10 @@ def saveinDB(arr2,path):
     cursor.close()
     connection.close()
 
-saveinDB([1],"DoubanTop250_2021_10_19___21_37_49")
+# saveinDB([1],"DoubanTop250_2021_10_19___21_37_49")
+
+try:
+    print(zzzz)
+    print(";;;;")
+except:
+    print("pass")

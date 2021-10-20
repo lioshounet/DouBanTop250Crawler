@@ -21,30 +21,25 @@ from openpyxl import load_workbook
 import pymysql.cursors
 
 def main():
-    # print("hello")
     baseurl = "https://movie.douban.com/top250?start="
+
+    # 母excel
     TabSavepath = r"D:\ZPan\QianDuan\自助学习\2021大三上自学\爬虫-任务驱动\豆瓣\保存的表格\class01.xlsx"
-
-
-    # MuTabPathTxt = open("MuTabPath.txt", "w", encoding="utf-8")
-    # MuTabPathTxt.write(Dir_choose)
 
     path = str(time.strftime('%Y_%m_%d___%H_%M_%S', time.localtime()))
     datalist = getData(baseurl,path)
 
     DBTabName = "Top250__" + path
 
-    print(datalist)
-    print(len(datalist))
-
+    # 保存的excel的名字，数据库表的名称
     saveData(TabSavepath, datalist , DBTabName)
-
 
 # 控制爬取/筛选数据
 def getData(baseurl ,path):
     Top250data = [[""]]
     datalist = []
 
+    # 根据时间创建文件夹，装html，以txt的格式
     os.makedirs("../HTML/DoubanTop250" + path)
 
     for i in range(0, 10):
@@ -54,12 +49,12 @@ def getData(baseurl ,path):
         #html保存
         HtmlTxt = open("../HTML/DoubanTop250"+path+"/"+str(i * 25) + ".txt", "w", encoding="utf-8")
         HtmlTxt.write(html)
+        print(str(i * 25)+"HTML写入成功")
 
         # datalist.append(html)
         soup = BeautifulSoup(html,"html.parser")
         # 剥离电影div
         for movie_info in soup.find_all('div',class_="item"):
-            # print(movie_info)
 
             # a连接的正则搜索
             findLink = re.compile(r'<a href="(.*?)">')
@@ -78,6 +73,7 @@ def getData(baseurl ,path):
             findBd = re.findall(findBd, movie_info)[0]
             findBd = re.sub('<br(\s+)?/>(\s+)?'," ",findBd)
 
+            # 搜索信息加入数组
             datalist.append(link)
             datalist.append(findImg)
             datalist.append(findPoint)
@@ -108,10 +104,13 @@ def askURL(url):
     request = urllib.request.Request(url,headers=head)
 
     try:
+        print("执行一次独立爬取,获取原始HTML")
         response = urllib.request.urlopen(request)
         html = response.read().decode('utf-8')
+        print("原始HTML获取成功")
 
     except urllib.error.URLError as e:
+        print("原始HTML获取出错")
         if hasattr(e,"code"):
             print(e.code)
         if hasattr(e,"code"):
@@ -121,56 +120,72 @@ def askURL(url):
 
 # 保存数据
 def saveData(savepath,arr2 ,DBTabName):
-    Top250Tab = load_workbook(savepath)
-    Top250sheet = Top250Tab.active
-    Top250Data = tuple(Top250sheet)
 
-    for y in range(0,250):
-        Top250Data[y][0].value = arr2[y * 7 + 0]
-        Top250Data[y][1].value = arr2[y * 7 + 1]
-        Top250Data[y][2].value = arr2[y * 7 + 2]
-        Top250Data[y][3].value = arr2[y * 7 + 3]
-        Top250Data[y][4].value = arr2[y * 7 + 4]
-        Top250Data[y][5].value = arr2[y * 7 + 5]
-        Top250Data[y][6].value = arr2[y * 7 + 6]
+    try:
+        #写入表格
+        Top250Tab = load_workbook(savepath)
+        Top250sheet = Top250Tab.active
+        Top250Data = tuple(Top250sheet)
+    except:
+        print("打开excel表格出错")
 
-    Top250Tab.save(savepath + "豆瓣Top250.xlsx")
+    try:
+        for y in range(0,250):
+            Top250Data[y][0].value = arr2[y * 7 + 0]
+            Top250Data[y][1].value = arr2[y * 7 + 1]
+            Top250Data[y][2].value = arr2[y * 7 + 2]
+            Top250Data[y][3].value = arr2[y * 7 + 3]
+            Top250Data[y][4].value = arr2[y * 7 + 4]
+            Top250Data[y][5].value = arr2[y * 7 + 5]
+            Top250Data[y][6].value = arr2[y * 7 + 6]
+
+        Top250Tab.save(savepath + "豆瓣Top250.xlsx")
+        print("excel已保存")
+
+    except:
+        print("写入excel出错")
+
     saveinDB(arr2,DBTabName)
-
-def saveHTML(html,txtname):
-    HtmlTxt = open(txtname+".txt", "w", encoding="utf-8")
-    HtmlTxt.write(html)
 
 def saveinDB(arr2,tabname):
     arr3 = []
-    connection = pymysql.connect(host="192.168.75.143",
-                                 port=3306,
-                                 user="root",
-                                 password="ly86036609",
-                                 db='DouBanTop250',
-                                 charset="utf8",
-                                 )
+    try:
+        connection = pymysql.connect(host="192.168.75.143",
+                                     port=3306,
+                                     user="root",
+                                     password="ly86036609",
+                                     db='DouBanTop250',
+                                     charset="utf8",
+                                     )
 
+        print("已经成功连接数据库")
+
+    except :
+        print("数据库DouBanTop250连接失败")
+
+    # 分号替换
     for arr in arr2:
         arr3.append(arr.replace("'", " "))
 
-    # try:
     cursor = connection.cursor()
 
-    sql = r"CREATE TABLE "+\
-            tabname +\
-            "(`link`  varchar(255) NULL ,"+\
-            "`imglink`  varchar(255) NULL ,"+\
-            "`point`  varchar(255) NULL ,"+\
-            "`pointer`  varchar(255) NULL ,"+\
-            "`info`  varchar(255) NULL ,"+\
-            "`CnName`  varchar(255) NULL ,"+\
-            "`OutName`  varchar(255) NULL"+\
-            ");"
-    print(sql)
+    # 创建表格
+    try:
+        sql = r"CREATE TABLE "+\
+                tabname +\
+                "(`link`  varchar(255) NULL ,"+\
+                "`imglink`  varchar(255) NULL ,"+\
+                "`point`  varchar(255) NULL ,"+\
+                "`pointer`  varchar(255) NULL ,"+\
+                "`info`  varchar(255) NULL ,"+\
+                "`CnName`  varchar(255) NULL ,"+\
+                "`OutName`  varchar(255) NULL"+\
+                ");"
+        cursor.execute(sql)
+        connection.commit()
 
-    cursor.execute(sql)
-    connection.commit()
+    except :
+        print("表格创建失败")
 
     for i in range(0, 250):
         sql = r"INSERT INTO " + tabname + \
@@ -183,10 +198,16 @@ def saveinDB(arr2,tabname):
               str(arr3[i * 7 + 5]) + "','" + \
               str(arr3[i * 7 + 6]) + "'" + ");"
 
-    # sql = "CREATE TABLE t1(id int not null,name char(20));"
-        cursor.execute(sql)
-        connection.commit()
 
+        try:
+            cursor.execute(sql)
+            connection.commit()
+
+            print(str(i * 7 + 0) + "-" + str(i * 7 + 6) + "数据插入成功")
+        except:
+            print(str(i * 7 + 0) + "-" + str(i * 7 + 6) + "数据插入失败")
+
+    #数据库关闭连接
     cursor.close()
     connection.close()
 
